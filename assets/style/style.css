@@ -1,12 +1,32 @@
 * {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(212, 230, 245);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+figure {
+  order: -1;
+}
+
+h1 {
+font-size: 40px;
+text-align: center;
 }
 
 .pic {
-  height: 200px;
-  width: 200px;
+  max-height: 250px;
+  min-height: 100px;
+  width: auto;
 }
 
-main {
-  margin-top: 900px;
+img {
+  max-width: 100%;
 }
