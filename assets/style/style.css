@@ -50,20 +50,24 @@ nav ul {
   /* justify-content: space-between; */
 }
 
+nav ul li {
+  display: block;
+  width: 150px;
+  padding-left: 10px;
+}
+
 nav ul li a {
   display: block;
   margin-left: 10px;
   background-color: beige;
   text-decoration: none;
   color: black;
-  width: auto;
 }
 
 nav ul li a:hover {
   color: white;
   background-color: rgb(46, 33, 2);
 }
-
 
 .img {
   max-width: 50%;
