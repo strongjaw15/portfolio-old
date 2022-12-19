@@ -1,0 +1,81 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 8%;
+  padding: 2%;
+}
+
+.pic {
+  height: 200px;
+  width: 200px;
+  order: -1;
+  border-radius: 15%;
+}
+
+h1 {
+  width: auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+nav {
+  width: 200px;
+  border-radius: 15%;
+}
+
+section {
+  padding: 2%;
+  display: flex;
+  gap: 1em;
+  margin-right: 5%;
+  text-align: center;
+}
+
+h2 {
+  width: 100px;
+  height:100%;
+  border-right: 2px solid black;
+  font-size: 25px;
+  text-align: left;
+}
+
+div.aboutmep {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  line-height: 25px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 60%;
+}
+
+.list2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img2 {
+  width: 50%
+}
