@@ -3,10 +3,14 @@
 }
 
 body {
-  background-color: rgb(212, 230, 245);
+  background-color: rgb(135, 173, 222);
+  margin: 0;
 }
 
 header {
+  background-color: burlywood;
+  padding-top: 3%;
+  padding-bottom: 3%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -18,15 +22,68 @@ figure {
 
 h1 {
 font-size: 40px;
-text-align: center;
 }
 
 .pic {
-  max-height: 250px;
-  min-height: 100px;
-  width: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  margin: 0;
 }
 
-img {
-  max-width: 100%;
+nav ul {
+  list-style-type: none;
+  background-color: beige;
+  margin: 10px;
+  padding: 2px;
+  width: 150px;
+  border-radius: 30px
+}
+
+nav ul li a {
+  display: block;
+  margin-left: 10px;
+  background-color: beige;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: rgb(46, 33, 2);
+}
+
+
+.img {
+  max-width: 50%;
+}
+
+.img2 {
+  max-width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+main, footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 5%;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+.contact {
+  margin-top: 10%;
+}
+
+footer {
+  text-align: center;
 }
