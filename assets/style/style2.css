@@ -4,7 +4,7 @@
 
 header {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   gap: 8%;
   padding: 2%;
@@ -74,6 +74,7 @@ h2 {
   border-right: 2px solid black;
   font-size: 25px;
   text-align: left;
+  padding-bottom: 1px;
 }
 
 .aboutmep {
@@ -86,6 +87,8 @@ h2 {
 
 h3 {
   font-size: 20px;
+  padding: 1%;
+
 }
 
 section img {
@@ -143,4 +146,72 @@ footer {
   text-align: center;
   padding: 2%;
   border-top: 2px solid black;
+}
+
+@media screen and (max-width: 843px) {
+  header {
+    flex-direction: column;
+  }
+
+  h1, .pic, nav {
+    margin: 2%;
+  }
+
+  nav {
+    width: 95%;
+    border-radius: 0;
+  }
+
+  nav ul li {
+    text-align: center;
+  }
+
+  nav ul li a {
+    padding: 10px;
+  }
+
+  section {
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+  }
+
+  #aboutme, #mywork, #contactme {
+    width: 100%
+  }
+
+  h2 {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .item1 {
+    width: 80%;
+  }
+
+  span {
+    width: 60%;
+  }
+
+  span div {
+    margin-bottom: 3%;
+  }
+  
+  .contactme, #contactme, .contactme a h2 {
+    margin-bottom: 0;
+  }
+
+.contactme ul {
+  margin: 1rem;
+}
+
+  .contactme ul li {
+    text-align: center;
+  }
 }
