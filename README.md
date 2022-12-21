@@ -7,7 +7,7 @@ I wanted to build a page to work as a portfolio for me; to give a short bio, som
 
 ## Visuals
 
-./assets/images/screenshot.png
+![](./assets/images/screenshot.png)
 
 ## Link
 
